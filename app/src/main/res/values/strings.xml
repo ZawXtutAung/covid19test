@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Myanmar COVID-19 Area</string>
+    <string name="titscreen">COVID-19: ကိုရိုနာဗိုင်းရပ်စ်ရောဂါ ကို မိမိကစ၍ကာကွယ်ပါ</string>
+    <string name="rp1">မိမိ ကိုယ်တိုင်ဖြစ်စေ မိသားစုမှတစ်ဦတစ်ယောက်ဖြစ်စေ သတင်ႊပေးပို့နိုင်ပါသည်</string>
+    <string name="rp2">သတိပေးချက်</string>
+    <string name="rp3">ပေးပို့သူ၏ လက်ရှိကိုင်ဆောင်နေသော ဖုန်းနံပတ်ကို ကျွန်တော်တို့ appမှ မှတ်သားထားခြင်းကိုပြုလုပ်သွားပါမည်</string>
+    <string-array name="prlist">
+        <item>Me</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="know">
+        <item>Protect yourself and others from getting sick</item>
+        <item>How to use mask</item>
+        <item>How to Handrub</item>
+        <item>How COVID-19 spread</item>
+        <item>Role to protect ourselves and others</item>
+    </string-array>
+</resources>

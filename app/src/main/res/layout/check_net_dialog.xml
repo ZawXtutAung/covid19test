@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/diagran_bg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_gravity="center"
+    android:src="@drawable/test3no_internet_connection_icon"
+    android:layout_width="160dp"
+    android:layout_height="160dp"/>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="No Internet Connection"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:background="@drawable/item_bg_smp"
+        android:id="@+id/close_dia"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:tag="cards main container">
+<android.support.v7.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    card_view:cardCornerRadius="25dp"
+    card_view:cardElevation="8dp"
+    android:layout_margin="1dp"
+
+    card_view:cardBackgroundColor="#B2BCC6"
+    card_view:cardUseCompatPadding="true">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<LinearLayout
+    android:background="#7D95A8"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#F0F0F8"
+        android:textStyle="bold"
+        android:id="@+id/ccountry"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#57CA60"
+            android:id="@+id/ccase"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:background="#E6E5E5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#57CA60"
+                android:layout_weight="1"
+                android:text="New"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:textStyle="bold"
+                android:textColor="#57CA60"
+                android:id="@+id/newcases"
+                android:layout_weight="1"
+                android:gravity="center|left"
+                android:text="000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#91AEC5"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="#FF0303"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/cdie"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#54606C"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<TextView
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:textColor="#F3F4F4"
+    android:gravity="center"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:id="@+id/ctodaydie"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

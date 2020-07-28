@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "303791572475",
+    "firebase_url": "https://covid-19-test-19983.firebaseio.com",
+    "project_id": "covid-19-test-19983",
+    "storage_bucket": "covid-19-test-19983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303791572475:android:df6d109edc2c189cbd375e",
+        "android_client_info": {
+          "package_name": "com.zawxtut.dev.covid_19test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303791572475-chan27gtb6kbpvfn9qrm1t14a0l1h1c4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNkgRRblTDaRl6z0WRbB_61gkKgUhDpas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303791572475-chan27gtb6kbpvfn9qrm1t14a0l1h1c4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

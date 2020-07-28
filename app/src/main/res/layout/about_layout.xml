@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ImageView
+               android:background="#111"
+               android:src="@drawable/tesssicon1"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:layout_width="80dp"
+               android:layout_height="80dp"/>
+           <LinearLayout
+               android:gravity="center"
+               android:padding="10dp"
+               android:layout_margin="10dp"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:text="@string/app_name"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="Version 1.0"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+           <LinearLayout
+               android:gravity="center"
+               android:padding="10dp"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <ImageView
+                   android:id="@+id/mylogo"
+                   android:src="@drawable/mcoder001"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"/>
+               <TextView
+                   android:textStyle="bold"
+                   android:text="Develop by MCoder Team"
+                   android:textSize="20dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+
+
+               <TextView
+                   android:layout_marginTop="20dp"
+                   android:textStyle="bold"
+                   android:text="ZawXtut (project Leader)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textStyle="bold"
+                   android:text="KoThu (mcoder)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textStyle="bold"
+                   android:text="MayPanPwintHtwe (mcoder)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textStyle="bold"
+                   android:text="LwinMinThant (mcoder)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:textStyle="bold"
+                   android:text="Thanks Volantear Team(Yamethin)"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+           <LinearLayout
+               android:padding="10dp"
+               android:gravity="center"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:textStyle="bold"
+                   android:text="Data Souece"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="https://www.who.int/myanmar"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="https://www.trackcorona.live"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="https://www.corona.lmao.ninja"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+               <TextView
+                   android:text="https://www.mohs.gov.mm"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"/>
+           </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook_ic_001" />
+
+
+</LinearLayout>
+
+       </LinearLayout>
+   </ScrollView>
+</LinearLayout>

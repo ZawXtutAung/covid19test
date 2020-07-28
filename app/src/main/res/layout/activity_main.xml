@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include
+        layout="@layout/mytoolbar"
+        />
+<LinearLayout
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_weight="0.4"
+        android:id="@+id/mymidfg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_weight="5.6"
+        android:id="@+id/navbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:itemBackground="@color/toolbar"
+        android:background="?android:attr/windowBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemIconTint="#CFE3E2"
+        app:itemTextColor="#FfFFFF"
+        app:menu="@menu/navigation"
+        />
+</LinearLayout>
+</LinearLayout>

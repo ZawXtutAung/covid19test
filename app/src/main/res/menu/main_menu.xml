@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mabout"
+        android:icon="@drawable/aboutst002"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mmy"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:orderInCategory="100"
+        android:title="myanmar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_Mreport"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Report"
+        app:showAsAction="never" />
+<!--    <item-->
+<!--        android:id="@+id/menu_new"-->
+<!--        android:title="New Page"-->
+<!--        app:showAsAction="never" />-->
+
+
+</menu>
