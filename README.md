@@ -1,2 +1,2 @@
 # covid19test
-mcovit test
+mcovid test
